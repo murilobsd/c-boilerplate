@@ -7,4 +7,4 @@ script:
         - ./scripts/cov.sh
 
 after_success:
-        - bash <(https://codecov.io/bash)
+        - bash <(curl -s https://codecov.io/bash) 
