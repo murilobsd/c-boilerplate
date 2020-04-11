@@ -1,0 +1,6 @@
+*.core
+*.o 
+app
+core
+*~
+*.gcno

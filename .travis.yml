@@ -1,0 +1,10 @@
+language: c
+sudo: false
+compiler: gcc
+
+script:
+        - make coverage
+        - ./scripts/cov.sh
+
+after_success:
+        - bash <(https://codecov.io/bash)
